@@ -39,15 +39,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.labItem = new System.Windows.Forms.Label();
+            this.lblItem = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(197, 12);
+            this.btnSearch.Location = new System.Drawing.Point(206, 18);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
-            this.btnSearch.TabIndex = 0;
+            this.btnSearch.TabIndex = 1;
             this.btnSearch.Text = "查詢";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
@@ -65,21 +65,21 @@
             // 
             this.txtPrice.Location = new System.Drawing.Point(64, 114);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(100, 22);
+            this.txtPrice.Size = new System.Drawing.Size(127, 22);
             this.txtPrice.TabIndex = 2;
             // 
             // txtSale
             // 
             this.txtSale.Location = new System.Drawing.Point(64, 152);
             this.txtSale.Name = "txtSale";
-            this.txtSale.Size = new System.Drawing.Size(100, 22);
+            this.txtSale.Size = new System.Drawing.Size(127, 22);
             this.txtSale.TabIndex = 3;
             // 
             // txtCost
             // 
             this.txtCost.Location = new System.Drawing.Point(64, 190);
             this.txtCost.Name = "txtCost";
-            this.txtCost.Size = new System.Drawing.Size(100, 22);
+            this.txtCost.Size = new System.Drawing.Size(127, 22);
             this.txtCost.TabIndex = 4;
             // 
             // txtItemNo
@@ -88,8 +88,8 @@
             this.txtItemNo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtItemNo.Location = new System.Drawing.Point(64, 18);
             this.txtItemNo.Name = "txtItemNo";
-            this.txtItemNo.Size = new System.Drawing.Size(100, 22);
-            this.txtItemNo.TabIndex = 5;
+            this.txtItemNo.Size = new System.Drawing.Size(127, 22);
+            this.txtItemNo.TabIndex = 0;
             // 
             // label1
             // 
@@ -133,27 +133,27 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(197, 59);
+            this.button1.Location = new System.Drawing.Point(206, 59);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
+            this.button1.TabIndex = 5;
             this.button1.Text = "更新";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // labItem
+            // lblItem
             // 
-            this.labItem.AutoSize = true;
-            this.labItem.Location = new System.Drawing.Point(13, 59);
-            this.labItem.Name = "labItem";
-            this.labItem.Size = new System.Drawing.Size(0, 12);
-            this.labItem.TabIndex = 9;
+            this.lblItem.AutoSize = true;
+            this.lblItem.Location = new System.Drawing.Point(13, 59);
+            this.lblItem.Name = "lblItem";
+            this.lblItem.Size = new System.Drawing.Size(0, 12);
+            this.lblItem.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.labItem);
+            this.Controls.Add(this.lblItem);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -185,7 +185,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label labItem;
+        private System.Windows.Forms.Label lblItem;
     }
 }
 
