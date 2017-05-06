@@ -65,7 +65,6 @@
             // 
             this.txtPrice.Location = new System.Drawing.Point(64, 114);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtPrice.Size = new System.Drawing.Size(100, 22);
             this.txtPrice.TabIndex = 2;
             // 
@@ -73,7 +72,6 @@
             // 
             this.txtSale.Location = new System.Drawing.Point(64, 152);
             this.txtSale.Name = "txtSale";
-            this.txtSale.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtSale.Size = new System.Drawing.Size(100, 22);
             this.txtSale.TabIndex = 3;
             // 
@@ -81,15 +79,15 @@
             // 
             this.txtCost.Location = new System.Drawing.Point(64, 190);
             this.txtCost.Name = "txtCost";
-            this.txtCost.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtCost.Size = new System.Drawing.Size(100, 22);
             this.txtCost.TabIndex = 4;
             // 
             // txtItemNo
             // 
+            this.txtItemNo.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.txtItemNo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtItemNo.Location = new System.Drawing.Point(64, 18);
             this.txtItemNo.Name = "txtItemNo";
-            this.txtItemNo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtItemNo.Size = new System.Drawing.Size(100, 22);
             this.txtItemNo.TabIndex = 5;
             // 
